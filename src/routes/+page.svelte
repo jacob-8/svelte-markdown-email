@@ -1,2 +1,4 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<div class="p-3">
+  <a href="/newsletter" type="button" class="mr-1 mb-1 hover:underline">Newsletters</a>
+  <a href="/report" type="button" class="mr-1 mb-1 hover:underline">Report</a>
+</div>

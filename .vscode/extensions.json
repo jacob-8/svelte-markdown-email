@@ -1,0 +1,15 @@
+{
+  "recommendations": [
+    // Svelte
+    "svelte.svelte-vscode",
+    // Styles
+    "antfu.iconify",
+    "antfu.unocss",
+    // Code quality
+    "dbaeumer.vscode-eslint",
+    // ---- You should definitely install the ones above, the ones below are recommended
+    // "usernamehw.errorlens"
+    // "aaron-bond.better-comments",
+    // "vscode-icons-team.vscode-icons",
+  ],
+}
