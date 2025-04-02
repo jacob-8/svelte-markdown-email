@@ -1,5 +1,9 @@
+---
+tracking_code: christmas
+---
+
 # Exiting news
 
 Hi John!
 
-Here's some text written in Markdown. It will be converted to HTML when rendered.
+Here's some text written in **Markdown**. It will be *converted* to HTML when rendered.

@@ -1,5 +1,4 @@
 <script lang="ts">
-  // @ts-nocheck
   import Preview from './Preview.svelte'
 
   interface Props {

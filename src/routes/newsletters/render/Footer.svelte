@@ -1,6 +1,6 @@
 <script lang="ts">
   import type { ComponentProps } from 'svelte'
-  import Row from '$lib/components/Row.svelte'
+  import Row from '$lib/components/email/Row.svelte'
 
   interface Props {
     row?: ComponentProps<typeof Row>

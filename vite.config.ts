@@ -1,11 +1,12 @@
-import { sveltekit } from '@sveltejs/kit/vite';
-import { defineConfig } from 'vite';
+import { sveltekit } from '@sveltejs/kit/vite'
 import UnoCSS from '@unocss/svelte-scoped/vite'
+import { defineConfig } from 'vite'
 
 export default defineConfig({
-	plugins: [
-		UnoCSS({
+  plugins: [
+    UnoCSS({
       injectReset: '@unocss/reset/tailwind.css',
     }),
-		sveltekit()]
-});
+    sveltekit(),
+  ],
+})

@@ -2,8 +2,8 @@
 
 <script lang="ts">
   import MarkdownToEmailHtml from '$lib/components/markdown/MarkdownToEmailHtml.svelte'
-  import Row from '$lib/components/Row.svelte'
-  import Shell from '$lib/components/Shell.svelte'
+  import Row from '$lib/components/email/Row.svelte'
+  import Shell from '$lib/components/email/Shell.svelte'
   import Footer from './Footer.svelte'
   import Header from './Header.svelte'
 

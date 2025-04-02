@@ -1,6 +1,6 @@
 <script lang="ts">
   import type { ComponentProps } from 'svelte'
-  import Row from '$lib/components/Row.svelte'
+  import Row from '$lib/components/email/Row.svelte'
 
   interface Props {
     number: number
@@ -13,8 +13,6 @@
   }: Props = $props()
 </script>
 
-<Row backgroundColor="#FFC60A" space={2} />
-
 <Row {...row}>
-  <td align="center" valign="top" style="font-family: Helvetica, Arial, sans-serif; font-size: 20px; color: white;">Update #{number}</td>
+  <td align="center" valign="top" style="font-family: Helvetica, Arial, sans-serif; font-size: 20px; color: white;">Athletic.net # {number}</td>
 </Row>

@@ -1,9 +1,9 @@
 <script lang="ts">
   import type { Token } from 'marked'
-  import DashedLine from '../DashedLine.svelte'
-  import Image from '../Image.svelte'
-  import Paragraph from '../Paragraph.svelte'
-  import Title from '../Title.svelte'
+  import DashedLine from '../email/DashedLine.svelte'
+  import Image from '../email/Image.svelte'
+  import Paragraph from '../email/Paragraph.svelte'
+  import Title from '../email/Title.svelte'
   import RenderToken from './RenderToken.svelte'
 
   interface Props {

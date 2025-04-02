@@ -1,6 +1,6 @@
 <script lang="ts">
   import { page } from "$app/state";
-  import Iframe from "../Iframe.svelte";
+  import Iframe from "../../../lib/components/Iframe.svelte";
   import { updates_markdown } from "../updates_markdown.svelte";
   import "../get_updates";
   import "../update_on_template_change";

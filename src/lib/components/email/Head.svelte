@@ -1,6 +1,5 @@
 <script lang="ts">
-  // @ts-nocheck
-  import DarkModeSupport from '../components/DarkModeSupport.svelte'
+  import DarkModeSupport from './DarkModeSupport.svelte'
 
   interface Props {
     dark: boolean;
